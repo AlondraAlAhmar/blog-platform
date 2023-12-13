@@ -4,10 +4,10 @@ This repository contains the source code and files for my second React task in C
 
 ## The primary functionalities include:
 1. View Blogs: Users can seamlessly explore a collection of blogs, providing a rich and engaging reading experience.
-3. Write & Publish: Express yourself! Authenticated users can easily pen down their thoughts, create engaging content, and share it with the world.
-4. Delete with Ease: Oops, changed your mind? No worries! A nifty delete feature lets users manage their content hassle-free.
+2. Write & Publish: Express yourself! Authenticated users can easily pen down their thoughts, create engaging content, and share it with the world.
+3. Delete with Ease: Oops, changed your mind? No worries! A nifty delete feature lets users manage their content hassle-free.
 (Each user can have the privilege to delete ONLY his blogs)
-5. Firebase Authentication: Security is a top priority. The platform ensures that only authenticated users can access the writing and deletion features, enhancing the overall user experience.
+4. Firebase Authentication: Security is a top priority. The platform ensures that only authenticated users can access the writing and deletion features, enhancing the overall user experience.
 
 In the project directory, you can run:
 
