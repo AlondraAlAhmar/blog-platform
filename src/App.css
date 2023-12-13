@@ -1,0 +1,172 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}  
+  
+nav{
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color:rgba(151, 151, 199, 0.603);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:hover{
+  background: whitesmoke;
+  color: rgba(105, 105, 165, 0.426);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.loginPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px;
+  font-size: 40px;
+  color: rgba(105, 105, 165, 0.426);
+}
+
+.login-btn{
+  padding: 12px;
+  border-radius: 40px;
+  font-size: 22px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(151, 151, 199, 0.426);
+  background: whitesmoke;
+  border: none;
+}
+
+.login-btn:hover{
+  background: rgba(151, 151, 199, 0.426);
+  color: whitesmoke;
+}
+
+.gmailIcon{
+  margin: 10PX;
+}
+
+input{
+  height: 30px;
+}
+
+@media screen and (max-width: 480px){
+       .loginPage{
+        font-size: 20px;
+        margin: 100px;
+        padding-top: 200px;
+       }
+
+       .login-btn{
+        font-size: 16px;
+        padding: 10px;
+       }
+
+       .gmailIcon{
+        margin: 1px;
+        margin-right: 6px;
+       }
+}
+
+.createPostPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(151, 151, 199, 0.188);
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 8%;
+  border-radius: 20px;
+}
+
+.cpContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.title{
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  margin:10px;
+  border: 3px solid rgba(151, 151, 199, 0.426);
+}
+
+.post{
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  border: 3px solid rgba(151, 151, 199, 0.426);
+}
+
+.submit{
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background: rgba(151, 151, 199, 0.426);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.create{
+  color: rgba(151, 151, 199, 0.659);
+}
+
+.feedPost{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(151, 151, 199, 0.188);
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+.postTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pTitle{
+  color: rgb(151, 151, 199);
+}
+
+.pIcon{
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 190px;
+}
+
+.pIcon:hover{
+  background-color: whitesmoke;
+}
+
+.postText{
+  margin: 15px;
+}
+
+.authorName{
+  color: rgb(151, 151, 199);
+  margin-left: 50%;
+}
